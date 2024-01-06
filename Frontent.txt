@@ -1,0 +1,40 @@
+1
+@media (max-width: 1366px){
+
+
+}
+
+2
+@media (max-width: 991px){
+
+}
+
+
+@media (max-width: 767px){
+
+}
+
+
+@media (max-width: 567px){
+    
+} 
+
+
+1
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+
+2
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+3
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+@media (max-width: 576px){
+    
+}

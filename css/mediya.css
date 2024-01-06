@@ -1,0 +1,118 @@
+@media (max-width: 1075px) {
+  /* Nav Bar */
+  .nav-bar {
+    padding: 0px 20px;
+    position: relative;
+    position: fixed;
+  }
+  .nav-burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+  }
+  .nav-burger:hover {
+    cursor: pointer;
+    color: purple;
+  }
+  .nav-burger::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 5px;
+    content: " ";
+    background: purple;
+    transition: all 0.5s;
+  }
+  .nav-burger:hover::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    content: " ";
+    background: purple;
+    transition: all 0.5s;
+  }
+  .bos {
+    display: none;
+  }
+  .bos.sss {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 50%;
+    height: 300px;
+    background: #fff;
+    border-left: 1px solid purple;
+    border-bottom: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5;
+    -webkit-transition: all 0.5;
+    -moz-transition: all 0.5;
+    -ms-transition: all 0.5;
+    -o-transition: all 0.5;
+  }
+  .link {
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    width: 100%;
+    height: 100%;
+  }
+  /* Home */
+  .home {
+    padding: 100px 20px;
+  }
+  /* Aboute */
+  .about {
+    padding: 50px 20px;
+  }
+  .about-blok {
+    flex-direction: column;
+  }
+  .about-text {
+    width: 100%;
+    text-align: center;
+  }
+  /* Portfolio */
+  .portfolio {
+    padding: 50px 20px;
+  }
+  /* Contact */
+  .contact {
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 350px) {
+  /* Nav Bar */
+  .nav-bar {
+    padding: 0px 10px;
+  }
+  /* Home */
+  .home {
+    padding: 100px 10px;
+  }
+  /* About */
+  .about {
+    padding: 50px 10px;
+  }
+  .about-img{
+    width: 250px;
+    height: 250px;
+  }
+  .about-text {
+    width: 100%;
+  }
+  /* Portfolio */
+  .portfolio {
+    padding: 50px 10px;
+  }
+  #imgs1{
+    width: 100vw;
+  }
+}

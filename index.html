@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/cami4.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediya.css">
+    <title>Cami Avomar</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Nav Bar -->
+      <nav class="nav-bar flex-between">
+        <!-- Nav Logo -->
+        <div class="nav-logo flex-center">
+          <a href="./index.html">Cami</a>
+        </div>
+        <!-- Soat -->
+        <div id="clock">00:00:00</div>
+        <!-- Nav Link -->
+        <div class="nav-links bos flex-center">
+          <a class="link flex-center" href="#home">home</a>
+          <a class="link flex-center" href="#about">aboute</a>
+          <a class="link flex-center" href="#portfolio">portfolio</a>
+          <a class="link flex-center" href="#contact">contact</a>
+        </div>
+        <div class="nav-burger flex-center"><i class="bx bx-menu"></i></div>
+      </nav>
+      <!-- Home -->
+      <div id="home" class="home flex-center">
+        <div class="home-text">
+          <h1>
+            Hi, <br />
+            I'am <span class="purple">Cami Avomar</span> <br />
+            Graphic Designer
+          </h1>
+          <div class="profiles flex-around">
+            <a href="https://t.me/A3301C"><i class="bx bxl-telegram"></i></a>
+            <a href="https://instagram.com/akramova_kami"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/komila-akramova-b00a55255?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZVo3a5p%2BT8WmnXat489DEA%3D%3D"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+          <a href="#contact"
+            ><button class="btn"><h3>Contact</h3></button></a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- About -->
+    <section id="about" class="about">
+      <h1 class="title">About</h1>
+      <div class="about-blok flex-between">
+        <div class="about-img"></div>
+        <div class="about-text">
+          <h2>I'am <span class="purple">Cami</span></h2>
+          <p>
+            Versatile graphic designer with a passion for translating concepts
+            into visually compelling creations. Proficient in Adobe Creative
+            Suite, I specialize in creating impactful designs for both digital
+            and print media. My work seamlessly blends creativity with strategic
+            thinking, delivering visually appealing solutions that resonate with
+            target audiences. Explore my portfolio to witness a fusion of
+            innovation, attention to detail, and a commitment to bringing ideas
+            to life through the power of design.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+      <h1 class="title">Portfolio</h1>
+      <div class="portfolio-img">
+        <div id="imgs1" class="imgs1"></div>
+        <div id="imgs1" class="imgs2"></div>
+        <div id="imgs1" class="imgs3"></div>
+        <div id="imgs1" class="imgs4"></div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h1 class="title">Contact</h1>
+      <div class="contact-blok flex-center">
+        <div class="contact-form">
+          <form
+            class="form"
+            id="contact-form"
+            onsubmit=" return sendtelegram()"
+          >
+            <div>
+              <input
+                type="text"
+                id="text"
+                placeholder="Kamila Akramova"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="number"
+                id="call"
+                placeholder="930588636"
+                minlength="7"
+                min="7"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                id="email"
+                placeholder="akramovakamila06@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <textarea
+                id="message"
+                cols="30"
+                rows="5"
+                placeholder="Text"
+              ></textarea>
+            </div>
+            <div><button class="btn">Send</button></div>
+          </form>
+        </div>
+        <!-- <div class="contact-info">
+
+        </div> -->
+      </div>
+    </section>
+    <footer class="footer flex-center">
+      <marquee direction="down" width="100%" height="100%" behavior="alternate"
+        ><marquee behavior="alternate" direction=""
+          ><h1>Cami Avomar</h1></marquee
+        ></marquee
+      >
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
